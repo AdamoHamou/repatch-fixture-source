@@ -4,7 +4,7 @@ public class Fetcher {
 
     private int records;
 
-    public void poll() {
+    public void pollRecords() {
         records = records + 1;
         System.out.println("polling " + records + " records");
         if (records > 10) {
