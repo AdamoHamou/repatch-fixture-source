@@ -2,12 +2,12 @@ package pkg;
 
 public class Processor {
 
-    public void process(int value) {
-        int doubled = value * 2;
-        System.out.println(value + ":" + doubled);
+    public void process(int record) {
+        int doubled = record * 2;
+        System.out.println(record + ":" + doubled);
     }
 
     public String tag() {
-        return "base";
+        return "source-pr";
     }
 }
